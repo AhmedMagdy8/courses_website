@@ -1,0 +1,72 @@
+*{
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+body{
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+.courses{
+    width:100;
+    height:100%;
+}
+.heading h1{
+    color: #fff;
+    /* padding: 40px; */
+    text-align: center;
+}
+.box-continer{
+    width: 80%;
+    height: 80%;
+    background: #000;
+    display:flex;
+    padding: 100px;
+    /* margin: 40px; */
+}
+.box-continer h3{
+    color: #fff;
+}
+.box-continer a{
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background: #d3ad7f;
+}
+.box{
+     width: 100%;
+     height: 80%;  
+     text-align: center;
+     /* padding: 10rem; */
+     border: var(--border);
+     display:flex;
+     background: blue;
+     /* margin:40px 0; */
+     /* padding: 10px; */
+}
+.box-it{
+    background-image: url(../img/it.jpg);
+    width:400px;
+    height: 300px;
+    /* padding: 5px; */
+}
+.box-Autotronics{
+    background-image: url(../img/autotronics.jpg);
+    width:400px;
+    height:300px;
+}
+.box-Solarenergy{
+    background-image: url(../img/solar\ energy.jpg);
+    width:400px;
+    height:300px;
+}
+.box-Mechatronics{
+    background-image: url(../img/mechtronics.jpg);
+    width:400px;
+    height:300px;
+}

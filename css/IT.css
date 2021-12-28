@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    padding-top: 100px;
+}
+.header{
+    width: 100%;
+    background-color: #27ae60;
+    position: fixed; 
+    z-index: 1000;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 70px;
+    height: 40px;
+}
+.header ul{
+    list-style-type: none;   
+}
+.header ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: all .5s;
+}
+nav ul li a:hover{
+   background-color: #219150;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 100px;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.cmester{
+    width: 35%;
+    height: fit-content;    
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.cmester h1{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+.cmester a{
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-between;
+    display: block;
+    background-color: #fafafa;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+}
+.cmester a::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .5s;
+    height: 100%;
+    width: 0%;
+    background: #f8f8f8;
+    z-index: -1;
+}
+.cmester a:hover::before{
+    width: 100%;
+}
+.title-header{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+@media (max-width: 991px) {
+    .cmester h1{
+        font-size: 20px;
+    }
+    .cmester a{
+        font-size: 15px;
+    }
+    .title-header{
+        padding-top: 150px;
+    }
+    .title-header h1{
+        font-size: 25px;
+    }
+}

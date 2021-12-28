@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background:linear-gradient(#757F9A,#D7DDE8);
+    width: 100%;
+    height: 100vh;
+
+}
+.header{
+    width: 100%;
+    background-color: #ccc;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.4);
+    color: #000;
+    position: fixed;
+}
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .5s;
+    border-bottom: 2px solid #000;
+}
+.menu ul li a:hover{
+    padding-bottom: 5px;
+    border-color: #fff;
+    color: #fff;
+}
+.sign a:hover{
+    color: #fff;
+    padding-bottom: 5px;
+    border-color: #fff;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 7px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.sign a{
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    transition: all .5s;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.cont{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: auto;
+    padding-top: 60px;
+}
+.head{
+    padding-top: 60px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.head h1{
+    padding:10px 0;
+}
+.professor{
+    flex: 2;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.486);}
+.img1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.img1 img{
+    padding: 5px;
+}
+.img {
+    display: flex;
+    text-align: center;
+    padding-left: 60px;
+}
+.professor img{
+    width: 40px;
+}
+.professor .box{
+    padding: 15px;
+    flex-basis: 40%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.btn{
+    padding: 8px 30px;
+    background-color: #2196F3;
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #03A9F4;
+}
+.box p{
+    margin-top: 20px;
+}
+.box img{
+    width: 40px;
+}
+.professor hr{
+    width: 90%;
+    margin: auto;
+}
+.student{
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.box3{
+    margin-top: 60px;
+}
